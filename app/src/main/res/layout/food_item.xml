@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/myclick_food"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/food_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/clg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/food_name"
+            android:text="Name of Food"
+            android:textColor="@android:color/white"
+            android:background="#9f794c"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
